@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.6917,
+                    35.6895
+                ]
+            },
+            "properties": {
+                "name": "Tokyo Tower",
+                "category": "landmark"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        139.7000,
+                        35.6900
+                    ],
+                    [
+                        139.7050,
+                        35.6950
+                    ],
+                    [
+                        139.7100,
+                        35.7000
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Sample Route",
+                "distance_km": 2.5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            139.6950,
+                            35.6850
+                        ],
+                        [
+                            139.6950,
+                            35.6900
+                        ],
+                        [
+                            139.7000,
+                            35.6900
+                        ],
+                        [
+                            139.7000,
+                            35.6850
+                        ],
+                        [
+                            139.6950,
+                            35.6850
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Sample Park",
+                "area_sq_km": 0.1
+            }
+        }
+    ]
+}

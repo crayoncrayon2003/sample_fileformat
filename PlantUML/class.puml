@@ -1,0 +1,14 @@
+@startuml
+class User {
+  -id: int
+  -name: string
+  +login(): bool
+  +logout(): void
+}
+
+class Admin {
+  +resetPassword(user: User): void
+}
+
+User <|-- Admin
+@enduml
